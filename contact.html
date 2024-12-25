@@ -13,12 +13,12 @@
     <nav>
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="#">Blog Posts</a></li>
-        <li><a href="#">contact</a></li>
+        <li><a href="#posts">Blog Posts</a></li>
+        <li><a href="#contact_us">contact</a></li>
       </ul>
     </nav>
   </header>
-  <section>
+  <section id="#posts">
     <h2>Blog List</h2>
     <ul>
       <li><a href="#post1">Post Title 1</a></li>
@@ -61,6 +61,12 @@
       <img src="https://cdn.sprints.ai/files/171681651966548a87bcfdd-Platform%20Logo.svg" alt="sprints logo"
         style="width: 300px; height: auto;" />
       <p>Find out more at <a href="#" target="_self">this resource.</a></p>
+      <h4>Importstn Topics</h4>
+      <ol>
+        <li>Background</li>
+        <li>Analysis</li>
+        <li>Future Directions</li>
+      </ol>
     </div>
   </article>
   <article id="post3">
@@ -75,7 +81,7 @@
       <img src="https://cdn.sprints.ai/files/171681651966548a87bcfdd-Platform%20Logo.svg" alt="sprints logo"
         style="width: 300px; height: auto;" />
       <p>Learn more at <a href="#" target="_blank">this Link.</a></p>
-      <h4>Key Points:</h4>
+      <h4>Takeaways:</h4>
       <ul>
         <li>Lesson 1</li>
         <li>Lesson 2</li>
@@ -83,7 +89,48 @@
       </ul>
     </div>
   </article>
-  <p>Contact us at <a href="mailto:info@myblog.com">info@myblog.com</a></p>
+  <article id="contact_us">
+    <div>
+      <h3>Contact Us</h3>
+      <form>
+        <label for="name">Your Name:</label>
+        <input type="text" name="name" required>
+        <label for="name">Your Email:</label>
+        <input type="email" name="email" required>
+        <label for="message">Your Message:</label>
+        <textarea name="message" required></textarea>
+        <input type="submit" value="Send Message">
+      </form>
+    </div>
+  </article>
+  <article id="contact_info">
+    <div>
+      <h3>Contact Info</h3>
+      <table>
+        <tr>
+          <th>Day</th>
+          <th>Opening Time</th>
+          <th>Closing Time</th>
+        </tr>
+         <tr>
+          <td>Monday</td>
+          <td>9:00 AM</td>
+          <td>5:00 PM</td>
+        </tr>
+        <tr>
+          <td>Tuseday</td>
+          <td>9:00 AM</td>
+          <td>5:00 PM</td>
+        </tr>
+        <tr>
+          <td>Wensday</td>
+          <td>9:00 AM</td>
+          <td>5:00 PM</td>
+        </tr>
+      </table>
+    </div>
+  </article>
+  <p>For further inquiries, you can also email us at <a href="mailto:info@myblog.com">info@myblog.com</a></p>
 </body>
 
 </html>
